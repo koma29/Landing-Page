@@ -35,3 +35,8 @@
     font-weight: lighter;
     color: #1F2937;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
