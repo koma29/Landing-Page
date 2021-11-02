@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 button {
@@ -33,12 +34,7 @@ a, a:visited {
     background-color: #1F2937;
 }
 
-.hero-secondary, .header-link {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.hero, main {
+.hero {
     font-size: 48px;
     font-style: bold;
     color: #F9FAF8;
@@ -49,13 +45,12 @@ a, a:visited {
     color: #F9FAF8;
 }
 
-.awesome-container {
+.header-container {
     display: flex;
-    flex-direction: column;
 }
 
-.call-to-action {
-    background-color: #3882F6;
+.awesome-container {
+    flex: 1;
 }
 
 .info-header {
@@ -64,10 +59,46 @@ a, a:visited {
     color: #1F2937;
 }
 
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item {
+    max-width: 150px;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thor {
+    color: black;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 80px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    max-width: 1000px;
+}
+
+.hero-secondary, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
 }
