@@ -12,6 +12,7 @@ button {
     border-radius: 8px;
     padding: 8px 16px;
     background-color: #3882F6;
+    width: 100px;
 }
 
 a, a:visited {
@@ -19,18 +20,23 @@ a, a:visited {
     text-decoration: none;
 }
 
-.hero {
+.hero-block {
+
+}
+
+.hero-container {
     padding-left: 150px;
     padding-right: 150px;
 }
-.hero-container {
+
+.hero-nav {
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
 }
 
-.hero, footer {
+header, footer {
     background-color: #1F2937;
 }
 
@@ -38,6 +44,7 @@ a, a:visited {
     font-size: 48px;
     font-style: bold;
     color: #F9FAF8;
+    margin: 0%;
 }
 
 .header-logo {
@@ -47,10 +54,25 @@ a, a:visited {
 
 .header-container {
     display: flex;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    width: 925;
+    gap: 25px;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .awesome-container {
     flex: 1;
+}
+
+.awesome-container2 {
+    flex: 1;
+    
 }
 
 .info-header {
@@ -170,13 +192,13 @@ p {
     align-items: center;
 }
 
-.action-button > button {
-    width: 100px;
-}
-
 .hero-secondary, .header-link {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-link > a {
+    margin-left: 20px;
 }
 
 footer {
@@ -185,4 +207,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-nav > a {
+    font-weight: 700;
 }
