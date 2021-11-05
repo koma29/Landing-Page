@@ -20,13 +20,12 @@ a, a:visited {
     text-decoration: none;
 }
 
-.hero-block {
-
-}
-
 .hero-container {
     padding-left: 150px;
     padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-nav {
@@ -43,8 +42,10 @@ header, footer {
 .hero {
     font-size: 48px;
     font-style: bold;
-    color: #F9FAF8;
+    color: white;
     margin: 0%;
+    flex: 1;
+    display: flex;
 }
 
 .header-logo {
@@ -53,26 +54,28 @@ header, footer {
 }
 
 .header-container {
+    flex: 1;
     display: flex;
     margin-top: 80px;
     margin-bottom: 90px;
-    width: 925;
-    gap: 25px;
-}
-
-.header-center {
-    display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
 .awesome-container {
+    display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    max-width: 450px;
+    max-height: 200px;
 }
 
 .awesome-container2 {
+    display: flex;
     flex: 1;
-    
+    max-height: 200px;
+    max-width: 450px;
 }
 
 .info-header {
@@ -157,7 +160,6 @@ p {
 .action-container {
     background-color: #3882F6;
     color: #F9FAF8;
-    /* width: 900px; */
     height: 125px;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -210,5 +212,5 @@ footer {
 }
 
 .hero-nav > a {
-    font-weight: 700;
+    font-weight: 800;
 }
